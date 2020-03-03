@@ -13,4 +13,6 @@ def prime?(number)
   return true
 end
 
-puts Benchmark.measure { prime?(1425783) }
+guess = 1425783
+puts Benchmark.measure { prime?(guess) }
+puts prime?(guess)
