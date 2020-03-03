@@ -1,3 +1,4 @@
+require 'benchmark'
 # Add  code here!
 def prime?(number)
 
@@ -11,3 +12,5 @@ def prime?(number)
 
   return true
 end
+
+puts prime?(10256)
